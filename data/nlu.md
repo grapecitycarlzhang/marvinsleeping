@@ -1,43 +1,3 @@
-## intent:start_chart
-- do it
-- begin
-- go
-
-## intent:describe_image
-- sleeping
-- he is sleeping
-- it is sleeping
-- marvin is sleeping
-- marvin is sleeping in bed
-
-## intent:describe_image
-- bed
-- in bed
-  
-## intent:say_wake_up
-- wake up
-- wake up, marvin
-- get up
-- get up, marvin
-
-## intent:say_shhh
-- shhh
-
-
-## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
-
-## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
-
 ## intent:affirm
 - yes
 - indeed
@@ -52,6 +12,35 @@
 - don't like that
 - no way
 - not really
+- never
+
+## intent:describe_image_bed
+- bed
+- in bed
+
+## intent:describe_image_sleep
+- sleep
+- sleeping
+- he is sleeping
+- it is sleeping
+- marvin is sleeping
+- marvin is sleeping in bed
+- sleep
+- sleep
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
 
 ## intent:mood_great
 - perfect
@@ -74,3 +63,18 @@
 - not very good
 - extremely sad
 - so sad
+
+## intent:say_shhh
+- shhh
+
+## intent:say_wake_up
+- wake up
+- wake up, marvin
+- get up
+- get up, marvin
+
+## intent:start_chart
+- do it
+- begin
+- go
+- go
