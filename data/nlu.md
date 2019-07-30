@@ -1,3 +1,29 @@
+## intent:start_chart
+- do it
+- begin
+- go
+
+## intent:describe_image
+- sleeping
+- he is sleeping
+- it is sleeping
+- marvin is sleeping
+- marvin is sleeping in bed
+
+## intent:describe_image
+- bed
+- in bed
+  
+## intent:say_wake_up
+- wake up
+- wake up, marvin
+- get up
+- get up, marvin
+
+## intent:say_shhh
+- shhh
+
+
 ## intent:greet
 - hey
 - hello
