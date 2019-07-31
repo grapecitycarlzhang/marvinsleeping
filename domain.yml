@@ -13,6 +13,8 @@ actions:
 - utter_wake_up_done
 - utter_wake_up_dont
 - utter_wake_up_sleep
+- utter_out_of_scope
+- utter_ask_rephrase
 intents:
 - start_chart
 - describe_image_sleep
@@ -25,11 +27,16 @@ intents:
 - say_shhh
 - mood_great
 - mood_unhappy
+- out_of_scope
 templates:
-  utter_default:
-  - text: Sorry, I didn’t understand that.
-  - text: May I beg your pardon?
-  - text: Pardon me.
+  utter_ask_rephrase:
+    - text: "Pardon me."
+    - text: "May I beg your pardon?"
+  utter_out_of_scope:
+    - text: "Sorry, I can’t deal with that request."
+    - text: "I'm sorry, I can't handle that request."
+    - text: "I can't help you with that, I'm sorry."
+    - text: "Even a Rasa bot is not completely perfect - it seems like I can't handle that request."
   utter_breakfast:
   - text: Look, you woke him up! He needs to eat breakfast and comb his hair. What should he do first?
   utter_cheer_up:
