@@ -26,9 +26,12 @@ intents:
 - mood_great
 - mood_unhappy
 templates:
+  utter_default:
+  - text: Sorry, I didn’t understand that.
+  - text: May I beg your pardon?
+  - text: Pardon me.
   utter_breakfast:
-  - text: Look, you woke him up! He needs to eat breakfast and comb his hair. What
-      should he do first?
+  - text: Look, you woke him up! He needs to eat breakfast and comb his hair. What should he do first?
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
@@ -45,8 +48,7 @@ templates:
   utter_show_image:
   - text: Look at Marvin! What is he doing?
   utter_wake_up_bed:
-  - text: Yes! Marvin is in bed sleeping! Do you think it is time for him to wake
-      up?
+  - text: Yes! Marvin is in bed sleeping! Do you think it is time for him to wake up?
   utter_wake_up_done:
   - text: Ok, let's wake him up! Can you say, "Wake up, Marvin!"?
   utter_wake_up_dont:
